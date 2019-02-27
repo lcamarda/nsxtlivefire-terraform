@@ -17,7 +17,7 @@ data "nsxt_logical_tier0_router" "tier0_router" {
 }
 
 data "nsxt_edge_cluster" "edge_cluster" {
-  display_name = "edge-cluster-1-SiteA"
+  display_name = "edge-cluster-1"
 }
 
 
