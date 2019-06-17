@@ -13,11 +13,11 @@ data "nsxt_transport_zone" "overlay_tz" {
 }
 
 data "nsxt_logical_tier0_router" "tier0_router" {
-  display_name = "t0-infrastructure-SiteA"
+  display_name = "t0-sitea"
 }
 
 data "nsxt_edge_cluster" "edge_cluster" {
-  display_name = "edge-cluster-1"
+  display_name = "sitea-edge-cluster"
 }
 
 
